@@ -1,0 +1,96 @@
+.b-h1 {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #7E7467;
+    color: #7E7467;
+    margin-bottom: 1rem;
+}
+
+.hh {
+    color: #7E7467;
+    border-bottom: 1px solid #7E7467;
+    margin-bottom: 3rem;
+}
+
+.hover {
+    overflow: hidden;
+}
+
+.img {
+    transition: all 1.5s;
+}
+
+.font-size {
+    font-size: 0.8rem;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.header-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-link-s {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-title:hover a {
+    text-decoration: underline !important;
+}
+
+.icon-hover {
+    transition: all 2s;
+    width: 300px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.hover-icon:hover .icon-hover a {
+    opacity: 1 !important;
+    padding: 0px 13px;
+}
+
+.sobuj:hover a {
+    color: goldenrod;
+}
+
+.holud:hover a {
+    color: yellow;
+}
+
+.button {
+    display: none !important;
+}
+
+.red:hover a {
+    color: red;
+}
+
+.blue:hover a {
+    color: blue;
+}
+
+.icon-hover a {
+    opacity: 0;
+    color: rgb(165, 165, 165);
+    transition: all 1s;
+}
+
+
+/*================================= category page css =========================================================*/
+
+.c_header {
+    border-top: 4px solid;
+}
+
+.c_header span a {
+    font-size: 15px;
+    color: black;
+}
