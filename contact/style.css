@@ -1,0 +1,333 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+}
+/* page-banner-section */
+.page-banner{
+    background: url(	http://demo.hasthemes.com/hashnews-preview/hashnews/img/bg/page-banner-fashion.jpg) no-repeat center center
+    ;
+    padding: 66px 30px;
+}
+.page-banner h3 {
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+.page-banner {
+    background: url( http://demo.hasthemes.com/hashnews-preview/hashnews/img/bg/page-banner-fashion.jpg) no-repeat center right;
+        background-size: auto;
+    background-size: cover;
+}
+.banner-list {
+    list-style: none;
+    display: flex;
+}
+.page-banner a {
+    color: #ccc;
+    font-size: 14px;
+  
+    font-weight: 500;
+}
+.page-banner .after::after {
+    content: "/";
+    color: #ccc;
+    margin: 0px 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+/* banner //post-section-wrapper */
+.post-section-wrapper{
+    border: 1px solid #ddd;
+}
+.head {
+    position: relative;
+}
+.title {
+    color: #00C8FA;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 16px 20px;
+    border-top: 1px solid #f1f1f1;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.title::before {
+    content: "";
+    width: 3px;
+    height: 16px;
+    top: 39%;
+    left: -1px;
+    font-size: 10px;
+    background: #00C8FA;
+    position: absolute;
+    border-radius: 5px;
+}
+span{
+    font-size: 40px;
+}
+.contact-items {
+    padding: 20px;
+}
+.contact-item p {
+    color: #666;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+.contact-item span {
+    color: #00C8FA;
+    font-size: 30px;
+}
+.title::after {
+    content: "";
+    width: 3px;
+    height: 16px;
+    top: 39%;
+    right: -1px;
+    font-size: 10px;
+    background: #00C8FA;
+    position: absolute;
+    border-radius: 5px;
+}
+.form-part label {
+    font-size: 13px;
+    font-weight: 500;
+}
+.form-part {
+    padding: 48px 30px;
+}
+.form-part .nrml {
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    height: 36px;
+}
+.form-part sup {
+    color: #00C8FA;
+}
+.form-left-1st #cheakbox {
+    height: 100px;
+}
+.sub {
+    background: #00C8FA;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+/* map style css */
+.map {
+    padding: 30px 30px;
+}
+/* banner-bottom-right */
+.fab.fa-facebook {
+    color: #fff;
+    background: #516EAB;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 50%;
+    font-size: 31px;
+    font-weight: 600;
+}
+.box-small {
+    width: 49%;
+    float: left;
+    padding: 11px 0;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+.banner-right-box.text-center {
+    padding: 21px;
+}
+.box-small.sb1 {
+    background: #516EAB;
+}
+.box-small h5 {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.box-small p {
+    color: #fff5f5;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+.box-small.sb2 {
+    background: #EB5E4C;
+}
+.fab.fa-google {
+    color: #EB5E4C;
+    background: #FFF;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 286;
+}
+.box-small.sb3 {
+    background: #40BFF5;
+}
+.fab.fa-twitter {
+    color: #40BFF5;
+    background: #FFF;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 286;
+}
+.box-small.sb4 {
+    background: #F7659C;
+}
+.fab.fa-internet-explorer {
+    color: #F7659C;
+    background: #FFF;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 286;
+}
+.banner-right-item{
+    border: 1px solid #f1f1f1;
+}
+ /* for border */
+ .banner-right-box.text-center {
+    height: 368px;
+    width: 100%;
+}
+.single-slider {
+    margin-bottom: 37px;
+}
+/* photo */
+.phto{
+    overflow: hidden;
+}
+.phto img {
+   
+    max-width: 100%;
+    transition: .4s all ease-in-out;
+}
+.phto img:hover {
+   
+    transform: scale(1.2) rotate(-8deg);
+}
+/* sidebar-slider */
+.sidebar-slider-wrapper {
+    padding: 49px 20px;
+    background: #F6F6F6;
+}
+.sidebar-subscribe-slider {
+    margin-top: 40px;
+    position: relative;
+}
+.sidebar-slider-wrapper span {
+    color: #EE6868;
+    font-size: 17px;
+}
+.sidebar-slider-wrapper h5 {
+    color: #514B44;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.sidebar-slider-wrapper p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+.frminput input {
+    color: #737070;
+    font-size: 12px;
+    padding: 10px 43px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.btm {
+    color: #fff;
+    background: #F05555;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 29px;
+    border-radius: 3px;
+}
+.sidebar-slider-wrapper::before {
+    content: "";
+    background: url(http://demo.hasthemes.com/hashnews-preview/hashnews/img/shape/mail-1.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+.sidebar-slider-wrapper::after {
+    content: "";
+    background: url(http://demo.hasthemes.com/hashnews-preview/hashnews/img/shape/mail-2.png) no-repeat right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+.aftr {
+    z-index: +1;
+    position: relative;
+}
+
+/* responscive */
+@media(max-width:992px){
+    .phto {
+        width: 54%;
+        margin: auto;
+    }
+}
+
+@media(max-width:350px){
+    .btm {
+        font-size: 11px;
+        font-weight: 600;
+        padding: 6px 22px;
+    }
+    .sidebar-slider-wrapper h5 {
+        font-size: 11px;
+        font-weight: 400;
+        margin-bottom: 18px;
+    }
+    .frminput input {
+        font-size: 9px;
+        padding: 10px 33px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .sidebar-slider-wrapper p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+
