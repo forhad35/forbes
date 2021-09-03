@@ -79,7 +79,7 @@
 
 .icon-hover a {
     opacity: 0;
-    color: rgb(165, 165, 165);
+    color: rgb(102 97 97);
     transition: all 1s;
 }
 
@@ -91,6 +91,6 @@
 }
 
 .c_header span a {
-    font-size: 15px;
-    color: black;
+    font-size: 15px !important;
+    color: black !important;
 }
