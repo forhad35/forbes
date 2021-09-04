@@ -35,6 +35,10 @@
     color: rgb(205, 210, 241);
 }
 
+.me-lg-5 {
+    margin-right: 4rem !important;
+}
+
 
 /*=================================== End menubar ===========================*/
 
@@ -76,6 +80,12 @@
     letter-spacing: 1rem;
     font-size: 2rem;
 }
+
+
+/* ======================== footer==================== */
+
+
+/* ========================end footer ================ */
 
 @media screen and (max-width:992px) {
     .breakingNews {
