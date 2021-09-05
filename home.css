@@ -152,6 +152,10 @@ h6.card-title.f-card-title:hover a {
     margin-left: 7px;
 }
 
+footer {
+    margin-top: 2rem;
+}
+
 .f-twitter-texts {
     margin-bottom: 0px;
     margin: 5px 0px;
@@ -173,6 +177,7 @@ h6.card-title.f-card-title:hover a {
     border-color: #ffffff3b !important;
     z-index: 1;
     position: relative;
+    font-size: 0.7rem !important;
 }
 
 .f-twitter-icon .f-1:hover {
@@ -194,6 +199,7 @@ h6.card-title.f-card-title:hover a {
 
 .f-twitter-icon {
     position: relative;
+    font-size: 0.7rem !important;
 }
 
 .f-twitter-icon::before {
@@ -207,6 +213,14 @@ h6.card-title.f-card-title:hover a {
     font-size: 70px;
     line-height: 50px;
     opacity: 0.2;
+}
+
+.f-twitter-texts span {
+    font-size: 0.7rem !important;
+}
+
+.f-text p {
+    color: #fff;
 }
 
 
